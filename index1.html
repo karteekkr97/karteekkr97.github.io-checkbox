@@ -12,29 +12,41 @@
 <body>
     <script src="index.js"></script>
     <div class="main-container" style="height: 100%;">
-        <div class="header" style="height: 100px;">
-            <button class="btn1"><a href="index.html"style="color: white; text-decoration: none;">   Home</a></button>
-            <button class="btn2"><a href="index1.html" style="color: white; text-decoration: none;">Listing items</a></button>
+        <div class="header">
+
+            <button class="btn1 home"><a href="index.html">  Home</a></button>
+            <button class="btn1"><a href="index1.html" >Todo List</a></button>
         </div>
         <form name="form1" onsubmit="return validate()">
             <div class="content">
-                <div class="container1" style="height: 100px;">
-                    <input type="checkbox" id="num" class="refer" name="box1" value="one">
-                    <label for="box1">Necklace</label>
-                    <button class="btn3">Delete</button>
+                <div class="container1">
+                    <div class="one">
+                        <input type="checkbox" id="num" class="refer" name="box1" value="one">
+                        <label for="box1">Learning React</label>
+                    </div>
+                    <div class="btn">
+                        <button class="btn1">Del</button>
+                    </div>
                 </div>
-                <div class="container2" style="height: 100px;">
-                    <input type="checkbox" id="num1" class="refer" name="box1" value="one">
-                    <label for="box1">Earring</label>
-                    <button class="btn3">Delete</button>
+                <div class="container1">
+                    <div class="one">
+                        <input type="checkbox" id="num1" class="refer" name="box1" value="one">
+                        <label for="box1">Making  Route</label>
+                    </div>
+                    <div class="btn">
+                        <button class="btn1">Del</button>
+                    </div>
                 </div>
-                <div class="container3" style="height: 100px;">
-                    <input type="text" id="num2" name="box2" value="item name">
-
-                    <button class="btn5">Search</button>
+                <div class="container1 add">
+                    <div class="one">
+                        <input type="text" id="num2" name="box2" value="input">
+                    </div>
+                    <div class="btn add1">
+                        <button class="btn1 ">Add</button>
+                    </div>
                 </div>
                 <div class="container4">
-                    <input type="submit" class="btn4" value="Undo">
+                    <input type="submit" class="btn1" value="Undo">
                 </div>
             </div>
         </form>
