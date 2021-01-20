@@ -5,5 +5,5 @@ function validate() {
         alert("Choose atleast one item to unmark")
         return false;
     }
-    return true;
+    return true
 }
