@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
 }
 
@@ -24,14 +23,6 @@ body {
 
 .btnn-add {
     background-color: rgb(12, 187, 50);
-    color: white;
-    padding: 10px 40px;
-    border: none;
-    border-radius: 5px;
-}
-
-.btnn-remove {
-    background-color: rgb(187, 12, 12);
     color: white;
     padding: 10px 40px;
     border: none;
@@ -89,21 +80,9 @@ a {
     margin: auto;
 }
 
-.container1 {
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-}
-
-.one,
-.btn {
-    flex: 50%;
-}
-
 @media (max-width:600px) {
     .input-group,
-    .btnn-add,
-    .btnn-remove {
+    .btnn-add {
         display: block;
         margin-top: 1rem;
     }
